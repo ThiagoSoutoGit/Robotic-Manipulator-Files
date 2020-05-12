@@ -1,0 +1,1323 @@
+\documentclass[transmag]{IEEEtran}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{hyperref}
+\graphicspath{ {./images/} }
+\renewcommand\IEEEkeywordsname{Keywords}
+\usepackage{pdfpages}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\usepackage{float}
+\usepackage{aliascnt}
+\newaliascnt{eqfloat}{equation}
+\newfloat{eqfloat}{h}{eqflts}
+\floatname{eqfloat}{Equation}
+\usepackage{cancel}
+
+\begin{document}
+
+\title{\textsc{Robot Manipulator Design Assignment}}
+
+\clearpage\thispagestyle{empty}
+
+\author{Souto T.L.
+
+\\
+\\
+\\
+
+\begin{centering}
+\vspace{20mm}
+\includegraphics[scale=0.25]{massey-png}
+\end{centering}
+
+
+
+\thanks{This paper is a Individual design Project and It is part of the second assignment of the course Master of engineering - Mechatronics at Massey university, Auckland.
+
+An electronic version of this report can be found by following this \textcolor{blue}{\href{https://thiagosoutogit.github.io/Masters/Pages/Automation/Assessment02RoboticArm.html}{link}}, and the programming documentation can be found by following this \textcolor{blue}{\href{https://thiagosoutogit.github.io/Robot-Manipulator/}{link}}, also a GitHub repository with all the files used in this project is available \textcolor{blue}{\href{https://github.com/ThiagoSoutoGit/Robot-Manipulator}{here}}. 
+
+Thiago Lima Souto is a student register under the number 19044686 at Massey university. Questions, comments or communications can be addressed via email \color{blue}\href{mailto:thiago.souto@yahoo.com.br}{thiago.souto@yahoo.com.br}
+
+\textcolor{red}{Please Check the links.}
+}}
+
+
+
+
+\IEEEtitleabstractindextext{\begin{abstract}
+In this paper is reported the design of a robotic manipulator with a fixed platform in a flat surface, It's able to be integrated with a robotic gripper also designed. The objective of this robotic system is to pick an object from a shelf or from the wall and place it onto a horizontal surface.
+Several tools were used to accomplish the objective of this project. For the calculations of forward and inverse kinematics Python programming language and the Pycharm IDE(Integrated Development Environment) were used, for modelling the robotic system SolidWorks, to simulate Mathworks Simulink and OpenModelica were chosen.
+
+\end{abstract}
+
+
+
+\begin{IEEEkeywords}
+robotic systems, forward kinematics, inverse kinematics 
+\end{IEEEkeywords}
+}
+
+\maketitle
+\thispagestyle{empty}
+
+\clearpage
+\newpage
+
+\clearpage\thispagestyle{empty}
+\onecolumn
+\tableofcontents
+
+\clearpage
+\newpage
+
+\twocolumn
+
+
+
+
+
+
+
+
+\section{INTRODUCTION}
+
+Industrial robot systems as well as computer-aided design and manufacturing (CAD and CAM) are leading the industrial automation. \cite{ref1}
+
+The mechanical manipulator is the most important form of the industrial robot and the localization of objects in the three-dimensional space is one of the most important aspect of the mechanical manipulator. Links, parts, tools, other objects on the manipulator environment and the motion of these objects are the subjects of study of Kinematics,  as well as all the geometrical and time-based properties of the motion, with no regards to the forces applied that causes it.
+
+The two basic problems in the study of mechanical manipulation are forward and inverse kinematics, the first computes the position and orientation of the end-effector on the manipulator and the second calculates all possible sets of joint angles that could be used  a given position and orientation. 
+
+Nowadays, CAD and CAM advanced software's are of easy access and used to design, simulate and calculate all that is necessary for modern robot design.
+
+The main objective of this assessment is to design a robotic manipulator with a fixed platform and flat surface, that is able to be integrated with a robot gripper for picking an object vertical wall/shelf and placing it onto a horizontal surface. 
+
+To accomplish this objective a robot system is proposed after this introduction followed by the manipulator and other components design. The forward and inverse kinematics of the robot system are studied with manual calculations as well as computed calculations. A Model with correct dimensions and a simulation of the proposed robot are made using Solidworks and OpenModelica. Finally, the results are discussed and the report is concluded.
+
+
+
+
+
+
+ 
+
+\section{Robot System Initial Proposal}
+
+Aiming on the objective of designing a robot system, basically, capable of picking an object from a shelf and placing it onto a horizontal surface, the system proposed is a 6DOF (degrees of freedom) robot manipulator, consisting of a fixed base, a rotating base, two solid links and a toll, as shown in the Figure \ref{Model}.
+
+To control the joints four brushless AC motors are used. The motors have attached a magnetic absolute encoder and a integrated controller.
+At the end of the system there is a simple gripper making the robotic manipulator able to pickup an object and place it onto a horizontal surface.  
+
+
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/Model}}
+\caption{Proposed robot manipulator system.\label{Model}}
+\end{figure}
+
+
+
+
+
+
+
+
+\section{Manipulator Design}
+
+
+\subsection{Robot Arms}
+Link 1 and Link 2 constitute the "arms" of the manipulator, they are designed to maximize the joint angle reach for more flexibility. Also in the rotation base there are two cuts two maximize even further the arms reach as can be seen on Figure \ref{Arms}. In this picture, with the Wireframe view with hidden lines visible, the fourth motor located inside the base can be seen, It is hidden on Figure \ref{Link1Model}.
+
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/Arms}}
+\caption{Arms flexibility on Wireframe view.\label{Arms}}
+\end{figure}
+
+\subsection{Robot Gripper}
+A gripper capable to hold a 80 mm square object is connected to frame $\{W\}$.
+In one of the gripper's claws there is a micro-motor to enable the gripper to hold.
+One of the claws of the gripper is attached to a threaded cylinder and then attached to a micro-motor, which will rotate the threaded cylinder and make the claw move. Figure \ref{Gripper} shows the details of the gripper.
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/Gripper}}
+\caption{Gripper details.\label{Gripper}}
+\end{figure}
+ 
+
+\subsection{Entire Model}
+Create a model of the robot manipulator with the correct dimensions. Using any method, software and hardware you are familiar with to simulate the movement (pick and place) of the robot manipulator. (3 marks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Other Components}
+Also, send a sheet of paper or PDF with complete contact information for all 
+authors. Include full mailing addresses, telephone numbers, fax numbers, and 
+e-mail addresses.
+
+
+\subsection{Motors}
+
+There are various types of motors and key factors need to be taken into account when selecting one for a particular application \cite{ref3}, in this case to control the joints of a robotic manipulator. The main factors are:
+
+\subsubsection{Inertia matching}
+
+The robotic system have to be capable to achieve a required torque to give a load a moment of particular inertia and to achieve a desired angular acceleration. The moment of inertia was calculated using the Iterative Newton-Euler Dynamics Algorithm \cite{ref7}, and this is solved in two parts, first the links velocities and accelerations are iteratively computed across the links applying the Newton-Euler equations to each link, then the forces and torques of interaction and joint actuator torques are computed recursively from the last link to the first.
+
+This calculation were made using Python (Apenddix \ref{appendix-A}) and confirmed by simulating the system using a simulation software, OpenModelica. The values for $\tau$ of each joint during the time of the simulation, $15 s$, are shown on Figure \ref{TauJoints}, and, as can be noted, the maximum torque required was $97.9063 N.m$. The simulation was made with the load attached to the system.
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/TausJoints}}
+\caption{Torque plot for various angles of the 4 joints, Max. 90.7566 N.m.\label{TauJoints}}
+\end{figure}
+
+\subsubsection{Torque requirements}
+
+High torque means a mechanism is able to handle heavier loads. The motor used for the modelling is capable of $157 N.m$ and should be able to handle the $97.9063 N.m$ with a $59.0937 N.m$ margin.
+
+\subsubsection{Power requirements}
+
+As well as the torque requirements this project don't require that the motors run at maximum velocity, therefore overheating will not be a problem, and this is one of the main aspects of power requirements for a motor. The total power required is the sum of the power needed to overcome friction and that needed to accelerate the load \cite{ref4}.
+
+
+After analysing and taking into consideration the aspects discussed above the RDrive 85 motor with rated torque of $108 N.m$ and peak torque of $157 N.m$ and $450W$ of Power was chosen to the task. \cite{ref8} For the gripper a 20 mm diameter motor was used.
+
+
+ 
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/Motor}}
+\caption{RDrive motor.\label{Motor}}
+\end{figure}
+
+
+
+\subsection{Sensors}
+
+To know the angular position of the joints absolute encoders shall be the choice because they give the actual angular position, a unique identification of an angle. The incremental encoders would detect the changes but in relation to some Datum. \cite{ref3}
+
+So with the absolute encoders we can track $\theta_1,\theta_2$, $\theta_3$ and $\theta_4$ and rearrange the links accordingly with the joints angles.
+
+Also a loading cell can be used on the toll to sense the amount of pressure to set a trigger to avoid damage on the object.
+
+
+\subsection{Controllers}
+
+The final printed size of an author photograph is exactly 
+1 inch wide by 1 1/4 inches long (6 picas~$\times$~7 1/2 picas). Please 
+ensure that the author photographs you submit are proportioned similarly. If 
+the author's photograph does not appear at the end of the paper, then please 
+size it so that it is proportional to the standard size of 1 9/16 inches 
+wide by 
+2 inches long (9 1/2 picas~$\times$~12 picas). JPEG files are only 
+accepted for author photos.
+
+\subsection{Control Methodology}
+
+IEEE accepts color graphics in the following formats: EPS, PS, TIFF, Word, 
+PowerPoint, Excel, and PDF. The resolution of a RGB color TIFF file should 
+be 400 dpi. 
+
+When sending color graphics, please supply a high quality hard copy or PDF 
+proof of each image. If we cannot achieve a satisfactory color match using 
+the electronic version of your files, we will have your hard copy scanned. 
+Any of the files types you provide will be converted to RGB color EPS files. 
+
+
+
+
+
+
+
+
+
+
+
+\clearpage
+\newpage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Forward Kinematic}
+
+
+To calculate the forward kinematics equation, a Python Class called "FowardKinematics" was created, this Class has two main methods involved on the calculations, the rotation and the translation for the $\hat Z$ and $\hat X$ axis. The parameters for these methods are extracted from the Denavit–Hartenberg parameters at $(1)$, the coordinate systems and also the basic frames $\{B\}$, $\{W\}$ and $\{T\}$, Base, Wrist and Tools respectively are identified on the Figure \ref{Axis}. The size of the links are $l_1 = 230$, $l_2 = 500$, $l_3 = 500$, $l_4 = 180$.
+
+The forward kinematics calculations were confirmed by a python programming code that can be found in the Appendix \ref{appendix-A}. 
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/Axis}}
+\caption{$\hat Z, \hat Y, \hat X axis, \theta_1, \theta_2, \theta_3, l1, l2, l3$ and $l4$.\label{Axis}}
+\end{figure}
+
+The rotation method receives an argument $self$ and $\theta_i$ for the rotation on the $\hat Z$ axis and $\alpha_{i-1}$ for $\hat X$. The $self$ argument is what makes this a method and not just a plain function, this is filled in automatically, when we call this method on the object. So we'll just provide one argument, and the fact that it's being called on the method will provide the first argument, self. It will then build a $sympy$ symbolic matrix and passes the $self$ argument to the method to be put in place, if no arguments are passed default values will be put in place as specified in the key word arguments ($\**$ $kwargs$) on the $\_\_init\_\_$ function. A Matrix is then returned after calling the $.evalf()$ function to evaluate.
+
+Like in the rotation method the translation method receives a argument $d_i$ and $a_{i-1}$ to return a matrix that translates in $\hat Z$ and $\hat X$ axis respectively. This class is also detailed in the Appendix \ref{appendix-A}.  
+
+The objective of the forward kinematics is to provide a kinematics equation relating the end-effector orientation and position. This is done by finding the 
+
+Finally, the forward kinematics equation is presented on Equation \ref{Forward Kinematics}.
+
+
+
+
+\begin{eqfloat}
+\begin{equation}
+\begin{tabular}{c|c|c|c|c}
+$i$  & $\alpha_{i-1}$ & $a_{i-1}$ & $d_i$        & $\theta_i$ \\
+\hline
+1    &  0             &  0         &  $l_1$ & $\theta_1$ \\
+2    &  $90^{\circ}$        &  0         &  0     & $\theta_2$ \\
+3    &  0             &  $l_2$     &  0     & $\theta_3$ \\
+4    &  0             &  $l_3$     &  0     & $\theta_4$ \\
+5    &  0             &  $l_4$     &  0     & 0 \\
+\end{tabular}
+\end{equation}
+
+\begin{center}
+Denavit–Hartenberg parameters
+\end{center}
+
+
+
+
+\begin{equation}
+^0_1T =
+\begin{bmatrix}
+cos\theta_1 & -sin\theta_1 & 0 & 0   \\
+sin\theta_1 & cos\theta_1  & 0 & 0   \\
+0           & 0            & 1 & l_1 \\
+0           & 0            & 0 & 1   \\
+\end{bmatrix}
+\end{equation}
+
+
+\begin{equation}
+^1_2T =
+\begin{bmatrix}
+cos\theta_2 & -sin\theta_2 & 0      & 0   \\
+0           & 0            & -1     & 0   \\
+sin\theta_2 & cos\theta_2  & 0      & 0   \\
+0           & 0            & 0      & 1   \\
+\end{bmatrix}
+\end{equation}
+
+
+
+
+\begin{equation}
+^2_3T =
+\begin{bmatrix}
+cos\theta_3 & -sin\theta_3 & 0      & l_2 \\
+sin\theta_3 & cos\theta_3  & 0      & 0   \\
+0           & 0            & 1      & 0   \\
+0           & 0            & 0      & 1   \\
+\end{bmatrix}
+\end{equation}
+
+
+
+\begin{equation}
+^3_4T =
+\begin{bmatrix}
+cos\theta_4 & -sin\theta_4 & 0      & l_3 \\
+sin\theta_4 & cos\theta_4  & 0      & 0   \\
+0           & 0            & 1      & 0   \\
+0           & 0            & 0      & 1   \\
+\end{bmatrix}
+\end{equation}
+
+
+
+\begin{equation}
+^4_5T =
+\begin{bmatrix}
+1 & 0 & 0 & l_4  \\
+0 & 1 & 0 & 0   \\
+0 & 0 & 1 & 0   \\
+0 & 0 & 0 & 1   \\
+\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+^0_5T = ^0_1T  ^1_2T  ^2_3T  ^3_4T  ^4_5T => ^0 \cancel{_1T  ^1_2T  ^2_3T  ^3_4T  ^4} _5T = ^0_5T
+\label{1-5}
+\end{equation}
+
+
+
+
+\begin{equation}
+^0_5T =
+\begin{bmatrix}
+C_1C_{234}
+& 
+-S_{234}C_1
+& 
+S_1
+& 
+C_1(l_2 C_2 + l_3 C_{23} + l_4 C_{234}) \\
+&&&&
+\\
+S_1 C_{234}     
+& 
+-S_1 S_{234} 
+& 
+-C_1
+& 
+ S_1 (l_2 C_2 + l_3 C_{23} + l_4 C_{234})
+\\
+&&&&
+\\
+S_{234}
+&
+C_{234}
+&
+0
+&
+l_1 + l_2 S_2 + l_3 S_{23} + l_4 S_{234} 
+\\
+&&&&
+\\
+0           & 0            & 0      & 1   \\
+\end{bmatrix}
+\label{Forward Kinematics}
+\end{equation}
+
+\end{eqfloat}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\clearpage
+\newpage
+
+
+
+
+
+\section{Inverse Kinematics}
+
+There are many methods to find the equations for the inverse kinematic here two methodologies are presented. The position for $\theta_1$ will be considered $0^{\circ}$ and $180^{\circ}$ and shown on Figure \ref{theta_1_0-180}
+
+\begin{figure}[h]
+\centerline{\includegraphics[width=3.5in]{./images/theta_1_0-180}}
+\caption{$\theta_1$ at positions $0^{\circ}$ and $180^{\circ}$.\label{theta_1_0-180}}
+\end{figure}
+
+Considering these two options we have:
+
+\begin{eqfloat}
+
+$^1_5T$, for $\theta = 0$,
+
+\begin{equation}
+\begin{bmatrix}
+C_{234}
+& 
+-S_{234}
+& 
+0
+& 
+l_2 C_2 + l_3 C_{23} + l_4 C_{234} \\
+&&&&
+\\
+0    
+& 
+0
+& 
+-1
+& 
+0
+\\
+&&&&
+\\
+S_{234}
+&
+C_{234}
+&
+0
+&
+l_1 + l_2 S_2 + l_3 S_{23} + l_4 S_{234} 
+\\
+&&&&
+\\
+0           & 0            & 0      & 1   \\
+\end{bmatrix}
+\label{Inverse Kinematics - T0_5 - theta=0}
+\end{equation}
+\end{eqfloat}
+
+\begin{eqfloat}
+
+$^1_5T$, for $\theta = 180$,
+
+\begin{equation}
+\begin{bmatrix}
+-C_{234}
+& 
+S_{234}
+& 
+0
+& 
+-l_2 C_2 - l_3 C_{23} - l_4 C_{234} \\
+&&&&
+\\
+0    
+& 
+0
+& 
+1
+& 
+0
+\\
+&&&&
+\\
+S_{234}
+&
+C_{234}
+&
+0
+&
+l_1 + l_2 S_2 + l_3 S_{23} + l_4 S_{234} 
+\\
+&&&&
+\\
+0           & 0            & 0      & 1   \\
+\end{bmatrix}
+\label{Inverse Kinematics - T0_5 - theta=180}
+\end{equation}
+
+And,
+
+\begin{equation}
+^1_5T = ^1_2T  ^2_3T  ^3_4T  ^4_5T => ^1 \cancel{_2T  ^2_3T  ^3_4T  ^4} _5T = ^1_5T
+\end{equation}
+\end{eqfloat}
+
+\subsection{Resolving for $\theta=0$}
+
+Another approach to resolve the inverse kinematics is by systematically find the equations for $\theta_n$ by first isolating the dependent transpose on the left side by multiplying both sides of Equation \ref{Inverse Kinematics - T0_5 - theta=0} by the dependent transpose inverse $^1_2T(\theta_1)^{-1}$, as in Equation \ref{first Dependent}.
+
+
+\begin{equation}
+^1_5T ^2_3T(\theta_1)^{-1} = ^1_2T(\theta_3)  ^3_4T(\theta_4)  ^4_5T 
+\label{first Dependent}
+\end{equation}
+Where,
+\begin{center}
+$^1_2T(\theta_2)  ^2_3T(\theta_3)  ^3_4T(\theta_4)  ^4_5T = ^1_5T$
+\end{center}
+Therefore,
+
+
+\begin{equation}
+\begin{bmatrix}
+C_3 & S_3      & 0 &0  \\
+-S_3           & C_3            & 0     & 0   \\
+0 & 0  & 1      & 0   \\
+l_2           & 0            & 0      & 1   \\
+\end{bmatrix}
+\begin{bmatrix}
+r_{11} & r_{12} & r_{13} & P_x   \\
+r_{21} & r_{22} & r_{23} & P_y   \\
+r_{31} & r_{32} & r_{33} & P_z   \\
+0      & 0      & 0      & 1     \\
+\end{bmatrix}
+=
+^1_5T
+\end{equation}
+
+We can equate:
+
+\begin{equation}
+\begin{bmatrix}
+-S_3  & C_3   & 0 & 0   \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+P_x \\
+P_y \\
+P_z \\
+1
+\end{bmatrix}
+= 0 \\
+\end{equation}
+
+Then we have:
+
+\begin{equation}
+\begin{matrix}
+-S_3 P_x + C_3 P_y = 0 \\
+
+\end{matrix}
+\end{equation}
+
+We can make the trigonometric substitutions:
+
+\begin{equation}
+\begin{matrix}
+P_x = \rho sin \theta_1, \\
+P_y = -\rho cos \theta_1, \\
+\end{matrix}
+\end{equation}
+
+\begin{equation}
+\rho = \sqrt{P_x^2 - P_y^2} 
+\end{equation}
+
+
+Therefore,
+
+
+
+\begin{equation}
+\begin{matrix}
+\theta_3 = Atan2(P_x, P_y)
+\end{matrix}
+\label{2-3}
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\clearpage
+\newpage
+
+
+
+
+
+\section{Inverse Kinematics}
+
+There are many methods to find the equations for the inverse kinematic here two methodologies are presented. First let's look at the trigonometric solution. For the trigonometric solution we can draw 2 triangles, on from frame $\{1\}$ to $\{4\}$ and the second one from frame $\{3\}$ to frame $\{5\}$. This way we can study the relation between the angles. 
+
+If we assume $theta_1 = 0$ we can calculate the angle relation between the triangles on Figure \ref{Inverse_triangles} as if they were on the same plane.
+
+\begin{figure}[h]
+\centerline{\includegraphics[width=3.5in]{./images/Inverse_triang}}
+\caption{Triangles from frame $\{1\}$ to $\{4\}$ and $\{3\}$ to $\{5\}$.\label{Inverse_triangles}}
+\end{figure}
+
+To find the hypotenuses of the triangles we have to find $^1_4T$, $^3_5T$ and $^1_5T$. This can be achieved by multiplying both sides of Equation \ref{Inverse Kinematics - T0_5 - theta=0} by the dependent transpose inverse $T^{-1}$, as shown below.
+
+If we consider Equation \ref{1-5_2}:
+
+\begin{equation}
+^0_5T = ^0_1T  ^1_2T  ^2_3T  ^3_4T  ^4_5T
+\label{1-5_2}
+\end{equation}
+
+and we multiply both sides by $^0_1T^{-1}$ we have,
+
+\begin{equation}
+^0_5T {^0_1T}^{-1} = {^0_1T}^{-1} {^0_1T} ^1_2T  ^2_3T  ^3_4T  ^4_5T
+\end{equation}
+
+Which is the same as,
+
+\begin{equation}
+^1_5T = ^1_2T  ^2_3T  ^3_4T  ^4_5T
+\end{equation}
+
+To find $^1_4T$ we can "go" to $^1_5T$ and "coming back" one step by computing the inverse $^4_5T^{-1}$. Then we have,
+
+\begin{equation}
+^1_4T = ^1_5T ^4_5T^{-1}
+\end{equation}
+
+And for $^3_5T$ from the red triangle we can multiply $^1_2T^{-1}$ and $^2_3T^{-1}$ by $^1_5T$. Then we have,
+
+\begin{equation}
+^3_5T = ^1_5T {^1_2T}^{-1}  {^2_3T}^{-1}
+\end{equation}
+
+
+Computing $^1_4T$, calculation made on Appendix \ref{appendix-A},
+
+\begin{equation}
+^1_4T = 
+\begin{bmatrix}
+C_{234} & -S_{234} & 0 & l_2 C_2 + l_3 C_{23} \\
+0 & 0 & -1 & 0 \\
+S_{234} & C_{234} & 0 & l_2 S_2 + l_3 S_{23} \\
+0 & 0 & -1 & 1 \\
+\end{bmatrix}
+\end{equation}
+
+And $^3_5T$,
+
+\begin{equation}
+\begin{matrix}
+^3_5T = \\
+\\
+\begin{bmatrix}
+C_{3}C_{34} & S_{3}C_{34} & -S_{34}  & l_2 C_2 - l_2 C_3 C_{34} + L_3 C_{23} + L_4 C_{234} \\
+-S_3        & C_3         & 0        & l_2 S_3 \\
+S_{34} C_3  & S_3 S_{34}  & cos_{34} & l_2 S_2 - l_2 C_3 S_{34} + L_3 S_{23} + L_4 S_{234}\\
+0           & 0           & -1       & 1 \\
+\end{bmatrix}
+\end{matrix}
+\end{equation}
+
+
+
+
+
+
+By using the law of cosines which states that, on a triangle $A, B, C$, we have,
+
+\begin{figure}[h]
+\centerline{\includegraphics[width=2in]{./images/cosines}}
+\caption{Law of cosines.\label{cosines}}
+\end{figure}
+
+\begin{equation}
+\begin{matrix}
+c^2 = \vec{c} . \vec{c} = \\
+(\vec{b} - \vec{a}).(\vec{b} - \vec{a}) = \\
+b^2 + a^2 - 2\vec{a} . \vec{b} = \\
+b^2 + a^2 - 2 ab cosC.
+\end{matrix}
+\end{equation}
+
+Applying to the blue triangle on Figure \ref{Inverse_triangles},
+
+\begin{equation}
+\begin{matrix}
+cos\omega = \frac{l_4^2 - l_3^2 - x^2 - y^2}{-2l_3 \sqrt{x^2 + y^2}} \\
+\\
+sin \omega = \sqrt{1 - {cos \omega}^2}
+\end{matrix}
+\end{equation}
+
+
+Therefore,
+
+\begin{equation}
+\begin{matrix}
+\beta = Atan2(x_{15}, y_{15}) \\
+\theta_2 = \beta - \omega
+\end{matrix}
+\end{equation}
+
+Applying the same to the red triangle and considering $(x, y)$ as from $^3_5T$, we have,
+
+\begin{equation}
+\begin{matrix}
+l_5^2 = l_4^2 + {\sqrt{x^2 + y^2}}^2 - 2 l_4 \sqrt{x^2 + y^2} cos \omega_2 =\\
+\\
+cos \omega_2 = \frac{l_5^2 - l_4^2 - x^2 - y^2}{-2l_4 \sqrt{x^2 + y^2}} \\
+\\
+sin \omega_2 = \sqrt{1 - {cos \omega_2}^2}
+
+\end{matrix}
+\end{equation}
+
+Therefore,
+
+\begin{equation}
+\begin{matrix}
+\beta_2 = Atan2(x_{35}, y_{35}) \\
+\theta_3 = \beta_2 - \omega_2
+\end{matrix}
+\end{equation}
+
+For $\theta_4$ we have,
+
+\begin{equation}
+\theta_4 = Atang(x_{14}, y_{14}) + \frac{{l_3}^{2} - {l_2}^{2} - {x_{14}}^{2} - {y_{14}}^{2}}{-2l_{2} \sqrt{{x_{14}}^{2} + {y_{14}}^{2}}}
+\end{equation}
+
+
+As a proof of the equations for the inverse kinematics a program in python was written using the a simple case where $\theta_2 = 0$, $\theta_2 = 0$ and $\theta_4 = 45$. The results were consistent and the program is exposed on Appendix \ref{appendix-A}.
+
+
+
+
+
+
+
+
+
+
+
+
+\clearpage
+\newpage
+
+
+\subsection{First Method}
+
+To find the joint displacements leading the centre of the end-effector from a vertical position to a horizontal position with correct orientation is necessary to obtain the inverse kinematics equations. So let Equation \ref{0_5T identity} be:
+
+
+
+
+
+\begin{eqfloat}
+\begin{equation}
+^0_5T =
+\begin{bmatrix}
+r_{11} & r_{12} & r_{13} & P_x   \\
+r_{21} & r_{22} & r_{23} & P_y   \\
+r_{31} & r_{32} & r_{33} & P_z   \\
+0      & 0      & 0      & 1     \\
+\end{bmatrix}
+\label{0_5T identity}
+\end{equation}
+
+for $\theta_1$, $\theta_2$, $\theta_3$ and $\theta_4$, we have:
+
+\begin{equation}
+^0_5T = ^0_1T(\theta_1)  ^1_2T(\theta_2)  ^2_3T(\theta_3)  ^3_4T(\theta_4)  ^4_5T
+\label{0_5T}
+\end{equation}
+
+\end{eqfloat}
+
+Now to resolve for $\theta_1$, $\theta_2$, $\theta_3$, and $\theta_4$, we have to find $Atan2(S_1, C_1)$, $Atan2(S_2, C_2)$,  $Atan2(S_3, C_3)$, and $Atan2(S_4, C_4)$. To achieve that we have to isolate the $sin$ and $cos$ by equating the elements of the matrices calculated. For $\theta_1$ we can equate element (1, 3) and element (2, 3) of Equation \ref{0_5T identity} in relation to Equation \ref{Forward Kinematics}:
+
+
+For $r_{13}$:
+\begin{equation}
+S_1 = r_{13}
+\label{1-3}
+\end{equation}
+
+For $r_{23}$:
+\begin{equation}
+-C_1 = r_{23}
+\label{2-3}
+\end{equation}
+
+We can make the trigonometric substitutions:
+
+\begin{equation}
+\begin{matrix}
+r_{13} = \rho sin \theta_1, \\
+r_{23} = -\rho cos \theta_1, \\
+\end{matrix}
+\end{equation}
+
+\begin{equation}
+\rho = \sqrt{r_{13}^2 - r_{23}^2} 
+\end{equation}
+
+
+Therefore,
+
+
+
+\begin{equation}
+\begin{matrix}
+\theta_1 = Atan2(r_{13}, - r_{23}), or \\
+\\
+\theta_1 = Atan2(S_1, C_1)
+\end{matrix}
+\label{2-3}
+\end{equation}
+
+
+If both $r_{13} = 0$ and $r_{23} = 0$ the goal is unattainable.
+
+For $\theta_2$ we can equate element (1, 4), element (2, 4), and and element (3, 4) of Equation \ref{0_5T identity} in relation to Equation \ref{Forward Kinematics}:
+
+For $r_{14}$:
+\begin{equation}
+P_x = C_1(l_2 C_2 + l_3 C_{23} + l_4 C_{234})
+\label{1-3}
+\end{equation}
+
+For $r_{24}$:
+\begin{equation}
+P_y = S_1 (l_2 C_2 + l_3 C_{23} + l_4 C_{234})
+\label{2-3}
+\end{equation}
+
+
+For $r_{34}$:
+\begin{equation}
+P_z = l_1 + l_2 S_2 + l_3 S_{23} + l_4 S_{234} 
+\label{2-3}
+\end{equation}
+
+
+Using the trigonometric substitutions:
+
+
+\begin{equation}
+cos (\theta_1 + \theta_2) = C_1 C_2 - S_1 S_2
+\end{equation}
+
+\begin{equation}
+sin (\theta_1 + \theta_2) = C_1 S_2 - S_1 C_2
+\end{equation}
+
+We can find:
+
+
+\begin{equation}
+\begin{matrix}
+C_{234} = \\
+C((\theta_2 + \theta_3) + \theta_4) = \\
+C_{23} C_4 - S_{23} S_4 = \\
+C_4(C_2 C_3 - S_2 S_3) - S_4(C_2 S_3 - S_2 C_3) = \\
+\\
+C_2 C_3 C_4 - S_2 S_3 C_4 - C_2 S_3 S_4 + S_2 C_3 S_4 \\
+
+\end{matrix}
+\end{equation}
+
+and,
+
+\begin{equation}
+\begin{matrix}
+S_{234} = \\
+S((\theta_2 + \theta_3) + \theta_4) = \\
+C_{23} S_4 - S_{23} C_4 = \\
+S_4 (C_2 C_3 - S_2 S_3) - C_4 (C_2 S_3 - S_2 C_3)\\
+\\
+C_2 C_3 S_4 - S_2 S_3 S_4 - C_2 S_3 C_4 + S_2 C_3 C_4\\
+
+\end{matrix}
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\clearpage
+\newpage
+
+\subsection{Second Method}
+
+Another approach to resolve the inverse kinematics is by systematically find the equations for $\theta_n$ by first isolating the dependent transpose on the left side by multiplying both sides of Equation \ref{0_5T} by the dependent transpose inverse $^0_1T(\theta_1)^{-1}$, as in Equation \ref{first Dependent}.
+
+\begin{eqfloat}
+\begin{equation}
+^0_5T ^0_1T(\theta_1)^{-1} =^1_2T(\theta_2)  ^2_3T(\theta_3)  ^3_4T(\theta_4)  ^4_5T 
+\label{first Dependent}
+\end{equation}
+Where,
+\begin{center}
+$^1_2T(\theta_2)  ^2_3T(\theta_3)  ^3_4T(\theta_4)  ^4_5T = ^1_5T$
+\end{center}
+Therefore,
+
+
+\begin{equation}
+\begin{bmatrix}
+C_1 & S_1 & 0 & 0   \\
+-S_1  & C_1   & 0 & 0   \\
+0           & 0            & 1 & l_1 \\
+0           & 0            & 0 & 1   \\
+\end{bmatrix}
+\begin{bmatrix}
+r_{11} & r_{12} & r_{13} & P_x   \\
+r_{21} & r_{22} & r_{23} & P_y   \\
+r_{31} & r_{32} & r_{33} & P_z   \\
+0      & 0      & 0      & 1     \\
+\end{bmatrix}
+=
+^1_5T
+\end{equation}
+\end{eqfloat}
+
+
+\begin{equation}
+^1_5T =
+\begin{bmatrix}
+C_{234} & -S_{234} & 0 & l_2 C_2 + l_3 C_{23} + l_4 C_{234} \\
+0& 0 & -1 & 0 \\
+S_{234} & C_{234} & 0 & l_2 S_2 + l_3 S_{23} + l_4 S_{234}  \\
+
+0      & 0      & 0      & 1     \\
+\end{bmatrix}
+\end{equation}
+
+From this we can take that:
+
+\begin{equation}
+\begin{matrix}
+\begin{bmatrix}
+C_1  & S_1   & 0 & 0   \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+P_x \\
+P_y \\
+P_z \\
+1
+\end{bmatrix}
+= l_2 C_2 + l_3 C_{23} + l_4 C_{234} \\
+\\
+C_1 P_x + S_1 P_y = l_2 C_2 + l_3 C_{23} + l_4 C_{234}
+\end{matrix}
+\end{equation}
+
+\begin{equation}
+\begin{matrix}
+\begin{bmatrix}
+-S_1  & C_1   & 0 & 0   \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+P_x \\
+P_y \\
+P_z \\
+1
+\end{bmatrix}
+= 0 \\
+\\
+-S_1 P_x + C_1 P_y = 0
+\end{matrix}
+\end{equation}
+
+\begin{equation}
+\begin{matrix}
+\begin{bmatrix}
+0  & 0   & 1 & l_1   \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+P_x \\
+P_y \\
+P_z \\
+1
+\end{bmatrix}
+= l_2 S_2 + l_3 S_{23} + l_4 S_{234} \\
+\\
+P_z + l_1 = l_2 S_2 + l_3 S_{23} + l_4 S_{234}
+\end{matrix}
+\end{equation}
+
+\begin{equation}
+\begin{matrix}
+\begin{bmatrix}
+0  & 0   & 1 & l_1   \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+r_{11} \\
+r_{21} \\
+r_{31} \\
+1
+\end{bmatrix}
+= S_{234} \\
+\\
+r_{31} + l_1= S_{234}
+\end{matrix}
+\end{equation}
+
+\begin{equation}
+\begin{matrix}
+\begin{bmatrix}
+0  & 0   & 1 & l_1   \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+r_{12} \\
+r_{22} \\
+r_{32} \\
+1
+\end{bmatrix}
+= C_{234} \\
+\\
+r_{32} + l_1= C_{234}
+\end{matrix}
+\end{equation}
+
+So,
+
+\begin{equation}
+\begin{cases}
+C_1 P_x + S_1 P_y = l_2 C_2 + l_3 C_{23} + l_4 C_{234} \\
+-S_1 P_x + C_1 P_y = 0 \\
+P_z + l_1 = l_2 S_2 + l_3 S_{23} + l_4 S_{234}
+\end{cases}
+\end{equation}
+
+
+Solving for $\theta_1$ we have:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\clearpage
+\newpage
+
+
+\section{System Simulation}
+
+OpenModelica is currently the most complete open-source Modelica and FMI based modelling, simulation, optimization, and model-based development environment. Its long-term development is supported by a non-profit organization – the Open Source Modelica Consortium (OSMC). \cite{ref2}
+
+This system was chosen, mainly, because of the open-source aspect, since Mathworks Simulink requires a paid plugin to connect the Solidworks model. Also due to the fact that Its a complete system for simulation modelling, versatile and capable of very complex tasks, much more complex than the current project.
+
+For the modelling simulation parameters, information from the CAD simulator (SolidWorks) regarding to mass, center of mass and moments of inertia, were confronted with the Python simulation and was consistent as shown on Figure \ref{MassProperties} and at the Python programming documentation that can be found on Appendix \ref{appendix-A}. More information about the model is also provided but not included necessary to the link properties at OpenModelica, like density, volume, surface area, among others. The parameters necessary for the model were the length, mass and center of mass, as well as the inertia tensors, as shown on Figure \ref{Link1Parameters}. 
+
+
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/MassProperties}}
+\caption{Mass, center of mass and moments of inertia used on the simulation from link1 - SolidWorks.\label{MassProperties}}
+\end{figure}
+
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/Link1Parameters}}
+\caption{OpenModelica, link1 parameters.\label{Link1Parameters}}
+\end{figure}
+ 
+To simulate the manipulator the component $Joints.Revolute$ was used for the joints, and $Parts.BodyShapes$ was used for the links, base and tool, and also some auxiliary component blocks to simulate controllers, world conditions and a fixed base (ground).
+On the $Joints.Revolute$ component for the joints the option $useAxisFlange$, allow the control of the rotation and this option was used as shown on the $joint1$ parameters on Figure \ref{Joint1Parameters}. 
+A unit conversion block has to be used to convert from degrees to radians, there is a math block for that. 
+With this control system the position can provide for $joint1$ by setting a value to the $Gain$ block. This will take the gain input and will provide it as a signal that the joint can use. This 6 blocks represent the first joint link of the system as represented in Figure \ref{Joint1Link1+Controller}.
+
+
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/Joint1Parameters}}
+\caption{OpenModelica, Joint1 parameters.\label{Joint1Parameters}}
+\end{figure}
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/Joint1Link1+Controller}}
+\caption{Joint1, Link1 and controller.\label{Joint1Link1+Controller}}
+\end{figure}
+
+
+The CAD modeling software chosen was SolidWorks from Dassault Systems, It is a solid modeling computer-aided design software with 2.3 million active users at over 234,800 companies in 80 countries. \cite{ref5} SolidWorks goal is building 3D CAD software that was easy-to-use, affordable, and available on Windows. \cite{ref6}
+The main reasons to use SolidWorks in this project were the easy of use, the calculations that can be used as OpenModelica parameters and the exporting features that allows easy integration between the two software.
+
+An import aspect of exporting from Solidworks to OpenModelica is the compatibility, the exported file can be a $.STL$ file. Although the measurements have to be in meters.
+In the $STL$ exporting window there is the option "Do not translate $STL$ output data to positive space", this option makes exported parts maintain their original position in global space, relative to the origin \cite{ref4}. 
+
+There are many ways to export from one software to the other, on this project approach, at the export STL window, the coordinate system is been output, as can be seen in the import parameters for link 1 on Figure \ref{exportSolidworks}, by exporting the coordinate system placed on the frame position, Figure \ref{Link1Model}, the vector from frame $\{A\}$ to the shape origin, resolved in $\{A\}$ is equal to 0, because the frame coordinate system exported is located at the origin.
+
+We can use the center of mass directly from SoildWorks as well as use the exact distance between the frames at the $r$ parameter as shown in the Figure \ref{Link1Parameters} and Figure \ref{importOpenModelicaParameters}.
+
+
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/Link1Model}}
+\caption{Coordinate system on the frame $\{4\}$ position for link 1.\label{Link1Model}}
+\end{figure}
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/exportSolidworks}}
+\caption{Exporting parameters.\label{exportSolidworks}}
+\end{figure}
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/importOpenModelicaParameters}}
+\caption{Importing parameters.\label{importOpenModelicaParameters}}
+\end{figure}
+
+
+The calculations for the moments of inertia were made in Python, refer to Appendix \ref{appendix-A}, and confirmed in the mass evaluation at SolidWorks, also, in OpenModelica, as can be seen see on Figure \ref{taus} the values for the torque for joint 1 and 2 using $\theta_{1-4}$ = $0^{\circ}$.
+
+\begin{figure}
+\centerline{\includegraphics[width=3.5in]{./images/taus}}
+\caption{Torques required for $\theta_{1-4}$ = $0^{\circ}$.\label{taus}}
+\end{figure}
+
+
+At Figure \ref{Simulation} the simulation modelling at OpenModelica is shown, the parameters used at the $Gain$ block results in an animation, Figure \ref{SimulationAnimation}, that goes from all the angles been 0 to the values set.
+
+\begin{figure*}
+\centerline{\includegraphics[width=7in]{./images/Simulation}}
+\caption{Simulation model, Base, rotational link and 2 more links.\label{Simulation}}
+\end{figure*}
+
+
+\begin{figure*}
+\centerline{\includegraphics[width=7in]{./images/SimulationAnimation}}
+\caption{Simulation animation.\label{SimulationAnimation}}
+\end{figure*}
+
+
+Another simulation was made in SolidWorks to show that the proposed design is capable of picking an object from a vertical wall/shelf and placing it onto a horizontal surface.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Discussion and Conclusions}
+
+The IEEE Graphics Checker Tool enables users to check graphic files. The 
+tool will check journal article graphic files against a set of rules for 
+compliance with IEEE requirements. These requirements are designed to ensure 
+sufficient image quality so they will look acceptable in print. After 
+receiving a graphic or a set of graphics, the tool will check the files 
+against a set of rules. A report will then be e-mailed listing each graphic 
+and whether it met or failed to meet the requirements. If the file fails, a 
+description of why and instructions on how to correct the problem will be 
+sent. The IEEE Graphics Checker Tool is available at \href 
+{http://graphicsqc.ieee.org/}{http://graphicsqc.ieee.org/}
+
+For more Information, contact the IEEE Graphics H-E-L-P Desk by e-mail at 
+\href {mailto:graphics@ieee.org}{mailto:graphics@ieee.org}. You will then receive an e-mail response and 
+sometimes a request for a sample graphic for us to check.
+
+
+\clearpage
+\newpage
+
+\begin{thebibliography}{00}
+\bibitem{ref1} J. J. Craig, \emph{Introduction To Robotics: Mechanics And Control}, 3rd ed., Ed. New York: Pearson Education, 2009.
+
+\bibitem{ref2} P. Fritzson, et al. \emph{The OpenModelica Integrated Modeling, Simulation and Optimization Environment} (Conference paper), PROCEEDINGS OF THE 1ST AMERICAN MODELICA CONFERENCE$. $Cambridge, USA: Massechusetts, 2018.
+
+\bibitem{ref3} W. Bolton, \emph{Mechatronics - Electronic control systems in mechanical and electrical engineering}. United Kingdom: Pearson Education Limited, 2019.
+
+\bibitem{ref4} (SOLIDWORKS Online Help) Dassault Systems. (2020, May).  Available: https://help.solidworks.com/.
+
+\bibitem{ref5} (The SOLIDWORKS blog) Dassault Systems. (2020, May).  Available: https://blogs.solidworks.com/solidworksblog/2016/10/growing-solidworks-nation.html.
+
+\bibitem{ref6} (SolidWoks - Wikipedia)(2020, May). Available: https://en.wikipedia.org/wiki/SolidWorks. 
+
+\bibitem{ref7} K.N. Frazer, School of Food and Advanced Technology, Massey University, Slides from Lecture 12, March 2019.
+
+\bibitem{ref8} \emph{RDrive Datasheet} ROZUM Robotics LLC., Mountain House, CA - USA, 2020.
+
+\bibitem{ref9} (Atan2 - Wikipedia)(2020, May). Available: https://en.wikipedia.org/wiki/Atan2
+\end{thebibliography}
+
+
+
+\clearpage
+\newpage
+
+
+\appendix
+\label{appendix-A}
+
+
+
+\includepdf[pages=-, frame=false, fitpaper=true, lastpage=8, scale=1, pagecommand={\thispagestyle{plain}}]{./images/MatricesManipulation.pdf}
+
+
+
+\end{document}

@@ -1,0 +1,1166 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.27)  12 MAY 2020 15:10
+entering extended mode
+**"./Robot Manipulator Design.tex"
+("Robot Manipulator Design.tex"
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+("C:\Program Files\MiKTeX 2.9\tex/latex/ieeetran\IEEEtran.cls"
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen134
+\@IEEEtrantmpdimenB=\dimen135
+\@IEEEtrantmpdimenC=\dimen136
+\@IEEEtrantmpcountA=\count167
+\@IEEEtrantmpcountB=\count168
+\@IEEEtrantmpcountC=\count169
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen137
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen138
+\CLASSINFOnormalsizeunitybaselineskip=\dimen139
+\IEEEnormaljot=\dimen140
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen141
+\IEEEquantizedlengthdiff=\dimen142
+\IEEEquantizedtextheightdiff=\dimen143
+\IEEEilabelindentA=\dimen144
+\IEEEilabelindentB=\dimen145
+\IEEEilabelindent=\dimen146
+\IEEEelabelindent=\dimen147
+\IEEEdlabelindent=\dimen148
+\IEEElabelindent=\dimen149
+\IEEEiednormlabelsep=\dimen150
+\IEEEiedmathlabelsep=\dimen151
+\IEEEiedtopsep=\skip47
+\c@section=\count170
+\c@subsection=\count171
+\c@subsubsection=\count172
+\c@paragraph=\count173
+\c@IEEEsubequation=\count174
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count175
+\c@table=\count176
+\@IEEEeqnnumcols=\count177
+\@IEEEeqncolcnt=\count178
+\@IEEEsubeqnnumrollback=\count179
+\@IEEEquantizeheightA=\dimen152
+\@IEEEquantizeheightB=\dimen153
+\@IEEEquantizeheightC=\dimen154
+\@IEEEquantizeprevdepth=\dimen155
+\@IEEEquantizemultiple=\count180
+\@IEEEquantizeboxA=\box45
+\@IEEEtmpitemindent=\dimen156
+\IEEEPARstartletwidth=\dimen157
+\c@IEEEbiography=\count181
+\@IEEEtranrubishbin=\box46
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen160
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen161
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count182
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count183
+\leftroot@=\count184
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count185
+\DOTSCASE@=\count186
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen162
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count187
+\c@MaxMatrixCols=\count188
+\dotsspace@=\muskip16
+\c@parentequation=\count189
+\dspbrk@lvl=\count190
+\tag@help=\toks18
+\row@=\count191
+\column@=\count192
+\maxfields@=\count193
+\andhelp@=\toks19
+\eqnshift@=\dimen163
+\alignsep@=\dimen164
+\tagshift@=\dimen165
+\tagwidth@=\dimen166
+\totwidth@=\dimen167
+\lineht@=\dimen168
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/infwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/pdfescape\pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/hycolor\hycolor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/letltxmacro\letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/kvoptions\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen169
+\Hy@linkcounter=\count194
+\Hy@pagecounter=\count195
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/intcalc\intcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/etexcmds\etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count196
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count197
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen170
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/bitset\bitset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/bigintcalc\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count198
+\Field@Width=\dimen171
+\Fld@charsize=\dimen172
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count199
+\c@Item=\count266
+\c@Hfootnote=\count267
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/atveryend\atveryend.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count268
+\c@bookmark@seq@number=\count269
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/rerunfilecheck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/uniquecounter\uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip53
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.sty"
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count270
+\calc@Bcount=\count271
+\calc@Adimen=\dimen173
+\calc@Bdimen=\dimen174
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count272
+\calc@Cskip=\skip56
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.sty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen175
+\AM@pageheight=\dimen176
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.def"
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box49
+\AM@global@opts=\toks22
+\AM@pagecnt=\count273
+\AM@toc@title=\toks23
+\c@AM@survey=\count274
+\AM@templatesizebox=\box50
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count275
+\float@exts=\toks24
+\float@box=\box51
+\@float@everytoks=\toks25
+\@floatcapt=\box52
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\aliascnt.sty"
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+)
+\@float@every@eqfloat=\toks26
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/cancel\cancel.sty"
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count276
+\l__pdf_internal_box=\box53
+)
+("Robot Manipulator Design.aux"
+
+LaTeX Warning: Label `2-3' multiply defined.
+
+
+LaTeX Warning: Label `2-3' multiply defined.
+
+
+LaTeX Warning: Label `1-3' multiply defined.
+
+
+LaTeX Warning: Label `2-3' multiply defined.
+
+
+LaTeX Warning: Label `2-3' multiply defined.
+
+
+LaTeX Warning: Label `first Dependent' multiply defined.
+
+)
+\openout1 = `"Robot Manipulator Design.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+-- Lines per column: 58 (exact).
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count277
+\scratchdimen=\dimen177
+\scratchbox=\box54
+\nofMPsegments=\count278
+\nofMParguments=\count279
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count280
+\MPscratchDim=\dimen178
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
+\everyMPtoPDFconversion=\toks28
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring OFF on input line 17.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/refcount\refcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count283
+)
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
+
+("Robot Manipulator Design.out") ("Robot Manipulator Design.out")
+\@outlinefile=\write3
+\openout3 = `"Robot Manipulator Design.out"'.
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdflscape\pdflscape.sty"
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+<./images/massey-png.png, id=99, 1003.75pt x 445.665pt>
+File: ./images/massey-png.png Graphic file (type png)
+<use ./images/massey-png.png>
+Package pdftex.def Info: ./images/massey-png.png  used on input line 62.
+(pdftex.def)             Requested size: 250.93689pt x 111.41597pt.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 62
+.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: ./images/massey-png.png Graphic file (type png)
+<use ./images/massey-png.png>
+Package pdftex.def Info: ./images/massey-png.png  used on input line 62.
+(pdftex.def)             Requested size: 250.93689pt x 111.41597pt.
+File: ./images/massey-png.png Graphic file (type png)
+<use ./images/massey-png.png>
+Package pdftex.def Info: ./images/massey-png.png  used on input line 62.
+(pdftex.def)             Requested size: 250.93689pt x 111.41597pt.
+ [1{C:/Users/Thiago Souto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+
+ <./images/massey-png.png>] ("Robot Manipulator Design.toc")
+\tf@toc=\write4
+\openout4 = `"Robot Manipulator Design.toc"'.
+
+ [2
+
+
+
+]
+<./images/Model.png, id=147, 879.285pt x 852.18375pt>
+File: ./images/Model.png Graphic file (type png)
+<use ./images/Model.png>
+Package pdftex.def Info: ./images/Model.png  used on input line 114.
+(pdftex.def)             Requested size: 252.94499pt x 245.13745pt.
+<./images/Arms.png, id=150, 989.94844pt x 655.69969pt>
+File: ./images/Arms.png Graphic file (type png)
+<use ./images/Arms.png>
+Package pdftex.def Info: ./images/Arms.png  used on input line 133.
+(pdftex.def)             Requested size: 252.94499pt x 167.53638pt.
+<./images/Gripper.png, id=152, 3170.09344pt x 783.67781pt>
+File: ./images/Gripper.png Graphic file (type png)
+<use ./images/Gripper.png>
+Package pdftex.def Info: ./images/Gripper.png  used on input line 143.
+(pdftex.def)             Requested size: 252.94499pt x 62.52809pt.
+ [3
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.150 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.150 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.150 
+       <./images/Model.png> <./images/Arms.png> <./images/Gripper.png>]
+<./images/TausJoints.png, id=171, 1004.25188pt x 563.10374pt>
+File: ./images/TausJoints.png Graphic file (type png)
+<use ./images/TausJoints.png>
+Package pdftex.def Info: ./images/TausJoints.png  used on input line 186.
+(pdftex.def)             Requested size: 252.94499pt x 141.83243pt.
+<./images/Motor.png, id=174, 847.165pt x 430.60875pt>
+File: ./images/Motor.png Graphic file (type png)
+<use ./images/Motor.png>
+Package pdftex.def Info: ./images/Motor.png  used on input line 205.
+(pdftex.def)             Requested size: 252.94499pt x 128.56598pt.
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.252 \clearpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.252 \clearpage
+                 <./images/TausJoints.png> <./images/Motor.png>]
+<./images/Axis.png, id=190, 484.05844pt x 491.58656pt>
+File: ./images/Axis.png Graphic file (type png)
+<use ./images/Axis.png>
+Package pdftex.def Info: ./images/Axis.png  used on input line 278.
+(pdftex.def)             Requested size: 252.94499pt x 256.87915pt.
+
+Overfull \hbox (28.16058pt too wide) detected at line 414
+[][]\OML/cmm/m/it/10 T \OT1/cmr/m/n/10 = []
+ []
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.435 \clearpage
+                
+
+ <./images/Axis.png>]
+<./images/theta_1_0-180.png, id=214, 2892.30562pt x 1001.24063pt>
+File: ./images/theta_1_0-180.png Graphic file (type png)
+<use ./images/theta_1_0-180.png>
+Package pdftex.def Info: ./images/theta_1_0-180.png  used on input line 447.
+(pdftex.def)             Requested size: 252.94499pt x 87.5564pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 541.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\theta' on input line 541.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 541.
+
+[6
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.637 \clearpage
+                 <./images/theta_1_0-180.png>]
+<./images/Inverse_triang.png, id=236, 813.0375pt x 514.17094pt>
+File: ./images/Inverse_triang.png Graphic file (type png)
+<use ./images/Inverse_triang.png>
+Package pdftex.def Info: ./images/Inverse_triang.png  used on input line 651.
+(pdftex.def)             Requested size: 252.94499pt x 159.96407pt.
+
+Overfull \hbox (15.50667pt too wide) detected at line 714
+[] [] 
+ []
+
+<./images/cosines.png, id=240, 728.7225pt x 450.68375pt>
+File: ./images/cosines.png Graphic file (type png)
+<use ./images/cosines.png>
+Package pdftex.def Info: ./images/cosines.png  used on input line 724.
+(pdftex.def)             Requested size: 144.54pt x 89.38556pt.
+[7
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.799 \clearpage
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.799 \clearpage
+                 <./images/Inverse_triang.png> <./images/cosines.png>]
+Underfull \hbox (badness 1521) in paragraph at lines 832--833
+\OT1/ptm/m/n/10 find $\OML/cmm/m/it/10 Atan\OT1/cmr/m/n/10 2(\OML/cmm/m/it/10 S
+[]; C[]\OT1/cmr/m/n/10 )$\OT1/ptm/m/n/10 , $\OML/cmm/m/it/10 Atan\OT1/cmr/m/n/1
+0 2(\OML/cmm/m/it/10 S[]; C[]\OT1/cmr/m/n/10 )$\OT1/ptm/m/n/10 , $\OML/cmm/m/it
+/10 Atan\OT1/cmr/m/n/10 2(\OML/cmm/m/it/10 S[]; C[]\OT1/cmr/m/n/10 )$\OT1/ptm/m
+/n/10 , and
+ []
+
+[8
+
+] [9
+
+]
+<./images/MassProperties.png, id=308, 365.86688pt x 560.8453pt>
+File: ./images/MassProperties.png Graphic file (type png)
+<use ./images/MassProperties.png>
+Package pdftex.def Info: ./images/MassProperties.png  used on input line 1150.
+(pdftex.def)             Requested size: 252.94499pt x 387.74532pt.
+<./images/Link1Parameters.png, id=309, 1096.095pt x 469.00218pt>
+File: ./images/Link1Parameters.png Graphic file (type png)
+<use ./images/Link1Parameters.png>
+Package pdftex.def Info: ./images/Link1Parameters.png  used on input line 1156.
+
+(pdftex.def)             Requested size: 252.94499pt x 108.22604pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1164
+[]\OT1/ptm/m/n/10 To sim-u-late the ma-nip-u-la-tor the com-po-nent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1164
+\OML/cmm/m/it/10 Joints:Revolute$ \OT1/ptm/m/n/10 was used for the joints, and
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 1160--1164
+\OML/cmm/m/it/10 Parts:BodyShapes$ \OT1/ptm/m/n/10 was used for the links, base
+ and
+ []
+
+<./images/Joint1Parameters.png, id=312, 612.78937pt x 374.90062pt>
+File: ./images/Joint1Parameters.png Graphic file (type png)
+<use ./images/Joint1Parameters.png>
+Package pdftex.def Info: ./images/Joint1Parameters.png  used on input line 1168
+.
+(pdftex.def)             Requested size: 252.94499pt x 154.75137pt.
+<./images/Joint1Link1+Controller.png, id=313, 849.1725pt x 457.71pt>
+File: ./images/Joint1Link1+Controller.png Graphic file (type png)
+<use ./images/Joint1Link1+Controller.png>
+Package pdftex.def Info: ./images/Joint1Link1+Controller.png  used on input lin
+e 1173.
+(pdftex.def)             Requested size: 252.94499pt x 136.33629pt.
+[10
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1185 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1185 
+        <./images/MassProperties.png> <./images/Link1Parameters.png>]
+<./images/Link1Model.png, id=332, 1024.57782pt x 335.00156pt>
+File: ./images/Link1Model.png Graphic file (type png)
+<use ./images/Link1Model.png>
+Package pdftex.def Info: ./images/Link1Model.png  used on input line 1191.
+(pdftex.def)             Requested size: 252.94499pt x 82.70227pt.
+<./images/exportSolidworks.png, id=333, 651.93562pt x 501.37312pt>
+File: ./images/exportSolidworks.png Graphic file (type png)
+<use ./images/exportSolidworks.png>
+Package pdftex.def Info: ./images/exportSolidworks.png  used on input line 1196
+.
+(pdftex.def)             Requested size: 252.94499pt x 194.52487pt.
+<./images/importOpenModelicaParameters.png, id=334, 1096.095pt x 469.00218pt>
+File: ./images/importOpenModelicaParameters.png Graphic file (type png)
+<use ./images/importOpenModelicaParameters.png>
+Package pdftex.def Info: ./images/importOpenModelicaParameters.png  used on inp
+ut line 1201.
+(pdftex.def)             Requested size: 252.94499pt x 108.22604pt.
+<./images/taus.png, id=337, 864.22874pt x 820.56563pt>
+File: ./images/taus.png Graphic file (type png)
+<use ./images/taus.png>
+Package pdftex.def Info: ./images/taus.png  used on input line 1209.
+(pdftex.def)             Requested size: 252.94499pt x 240.16159pt.
+<./images/Simulation.png, id=340, 2104.11093pt x 238.64156pt>
+File: ./images/Simulation.png Graphic file (type png)
+<use ./images/Simulation.png>
+Package pdftex.def Info: ./images/Simulation.png  used on input line 1217.
+(pdftex.def)             Requested size: 505.89pt x 57.37344pt.
+<./images/SimulationAnimation.png, id=341, 3135.46407pt x 648.17157pt>
+File: ./images/SimulationAnimation.png Graphic file (type png)
+<use ./images/SimulationAnimation.png>
+Package pdftex.def Info: ./images/SimulationAnimation.png  used on input line 1
+223.
+(pdftex.def)             Requested size: 505.89pt x 104.57002pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1229 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1229 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1229 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1229 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1229 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1229 
+        <./images/Joint1Parameters.png> <./images/Joint1Link1+Controller.png> <
+./images/Link1Model.png> <./images/exportSolidworks.png> <./images/importOpenMo
+delicaParameters.png> <./images/taus.png>] [12pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.18}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1285 \clearpage
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1285 \clearpage
+                 
+
+ <./images/Simulation.png> <./images/SimulationAnimation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1297--1298
+\OT1/ptm/m/n/8 https://blogs.solidworks.com/solidworksblog/2016/10/growing-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1299--1300
+[]\OT1/ptm/m/n/8 (SolidWoks - Wikipedia)(2020, May). Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1306
+[]\OT1/ptm/m/n/8 (Atan2 - Wikipedia)(2020, May). Avail-able:
+ []
+
+[13
+
+
+]
+<./images/MatricesManipulation.pdf, id=365, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf  used on input line 
+1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf  used on input line 
+1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<./images/MatricesManipulation.pdf, id=368, page=1, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 1>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 1>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 1>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 1>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 1>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [14 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=384, page=2, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 2>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page2 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 2>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page2 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 2>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page2 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [15 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=399, page=3, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 3>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page3 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 3>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page3 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 3>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page3 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [16 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=424, page=4, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 4>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page4 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 4>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page4 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 4>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page4 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [17 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=446, page=5, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 5>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page5 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 5>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page5 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 5>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page5 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [18 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=451, page=6, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 6>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page6 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 6>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page6 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 6>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page6 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [19 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=457, page=7, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 7>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page7 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 7>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page7 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 7>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page7 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [20 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=467, page=8, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 8>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page8 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 8>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page8 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 8>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page8 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [21 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=472, page=9, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 9>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page9 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 9>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page9 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 9>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page9 used on inpu
+t line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [22 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=477, page=10, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 10>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page10 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 10>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page10 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 10>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page10 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [23 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=482, page=11, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 11>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page11 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 11>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page11 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 11>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page11 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [24 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=487, page=12, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 12>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page12 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 12>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page12 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 12>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page12 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [25 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=493, page=13, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 13>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page13 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 13>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page13 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 13>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page13 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [26 <./images/MatricesManipulation.pdf>]
+<./images/MatricesManipulation.pdf, id=498, page=14, 614.295pt x 794.97pt>
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 14>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page14 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 14>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page14 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 14>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page14 used on inp
+ut line 1319.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [27
+
+ <./images/MatricesManipulation.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1323.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1323.
+ ("Robot Manipulator Design.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1323.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1323.
+
+Package rerunfilecheck Info: File `"Robot Manipulator Design".out' has not chan
+ged.
+(rerunfilecheck)             Checksum: 9D411ACB9ADA0DFF832CADB2FF66CC9D;1430.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1323.
+ ) 
+Here is how much of TeX's memory you used:
+ 8871 strings out of 481556
+ 137990 string characters out of 2923611
+ 416430 words of memory out of 3000000
+ 23784 multiletter control sequences out of 15000+200000
+ 572150 words of font info for 102 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,19n,49p,802b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/urw/courier/ucrro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
+/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Robot Manipulator Design.pdf" (27 pages, 2334861 bytes).
+PDF statistics:
+ 602 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 378 words of extra memory for PDF output out of 10000 (max. 10000000)
+
