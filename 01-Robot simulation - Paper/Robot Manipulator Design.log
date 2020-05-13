@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.27)  14 MAY 2020 00:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.27)  14 MAY 2020 11:30
 entering extended mode
 **"./Robot Manipulator Design.tex"
 ("Robot Manipulator Design.tex"
@@ -477,7 +477,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<./images/massey-png.png, id=79, 1003.75pt x 445.665pt>
+<./images/massey-png.png, id=83, 1003.75pt x 445.665pt>
 File: ./images/massey-png.png Graphic file (type png)
 <use ./images/massey-png.png>
 Package pdftex.def Info: ./images/massey-png.png  used on input line 61.
@@ -522,12 +522,12 @@ Package pdftex.def Info: ./images/massey-png.png  used on input line 61.
 
 
 ]
-<./images/Model.png, id=120, 879.285pt x 852.18375pt>
+<./images/Model.png, id=125, 879.285pt x 852.18375pt>
 File: ./images/Model.png Graphic file (type png)
 <use ./images/Model.png>
 Package pdftex.def Info: ./images/Model.png  used on input line 136.
 (pdftex.def)             Requested size: 252.94499pt x 245.13745pt.
-<./images/Arms.png, id=123, 989.94844pt x 655.69969pt>
+<./images/Arms.png, id=128, 989.94844pt x 655.69969pt>
 File: ./images/Arms.png Graphic file (type png)
 <use ./images/Arms.png>
 Package pdftex.def Info: ./images/Arms.png  used on input line 150.
@@ -548,17 +548,17 @@ l.158
                                                   \fi \fi 
 l.158 
        <./images/Model.png> <./images/Arms.png>]
-<./images/Gripper.png, id=143, 3170.09344pt x 783.67781pt>
+<./images/Gripper.png, id=148, 3170.09344pt x 783.67781pt>
 File: ./images/Gripper.png Graphic file (type png)
 <use ./images/Gripper.png>
 Package pdftex.def Info: ./images/Gripper.png  used on input line 160.
 (pdftex.def)             Requested size: 252.94499pt x 62.52809pt.
-<./images/TausJoints.png, id=148, 1004.25188pt x 563.10374pt>
+<./images/TausJoints.png, id=153, 1004.25188pt x 563.10374pt>
 File: ./images/TausJoints.png Graphic file (type png)
 <use ./images/TausJoints.png>
 Package pdftex.def Info: ./images/TausJoints.png  used on input line 187.
 (pdftex.def)             Requested size: 252.94499pt x 141.83243pt.
-<./images/Motor.png, id=151, 847.165pt x 430.60875pt>
+<./images/Motor.png, id=156, 847.165pt x 430.60875pt>
 File: ./images/Motor.png Graphic file (type png)
 <use ./images/Motor.png>
 Package pdftex.def Info: ./images/Motor.png  used on input line 206.
@@ -582,7 +582,7 @@ l.252
                                                   \fi \fi 
 l.252 
        <./images/Gripper.png> <./images/TausJoints.png> <./images/Motor.png>]
-<./images/Axis.jpg, id=168, 2208.25pt x 2075.755pt>
+<./images/Axis.jpg, id=173, 2208.25pt x 2075.755pt>
 File: ./images/Axis.jpg Graphic file (type jpg)
 <use ./images/Axis.jpg>
 Package pdftex.def Info: ./images/Axis.jpg  used on input line 256.
@@ -595,7 +595,7 @@ Overfull \hbox (28.16058pt too wide) detected at line 390
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/Inverse_triang.png, id=172, 1257.94969pt x 807.7678pt>
+<./images/Inverse_triang.png, id=177, 1257.94969pt x 807.7678pt>
 File: ./images/Inverse_triang.png Graphic file (type png)
 <use ./images/Inverse_triang.png>
 Package pdftex.def Info: ./images/Inverse_triang.png  used on input line 410.
@@ -614,7 +614,7 @@ Overfull \hbox (15.50667pt too wide) detected at line 473
 [] [] 
  []
 
-<./images/cosines.png, id=196, 728.7225pt x 450.68375pt>
+<./images/cosines.png, id=201, 728.7225pt x 450.68375pt>
 File: ./images/cosines.png Graphic file (type png)
 <use ./images/cosines.png>
 Package pdftex.def Info: ./images/cosines.png  used on input line 483.
@@ -635,12 +635,12 @@ l.568
                                                   \fi \fi 
 l.568 
        <./images/Inverse_triang.png> <./images/cosines.png>]
-<./images/MassProperties.png, id=225, 365.86688pt x 560.8453pt>
+<./images/MassProperties.png, id=230, 365.86688pt x 560.8453pt>
 File: ./images/MassProperties.png Graphic file (type png)
 <use ./images/MassProperties.png>
 Package pdftex.def Info: ./images/MassProperties.png  used on input line 574.
 (pdftex.def)             Requested size: 252.94499pt x 387.74532pt.
-<./images/Link1Parameters.png, id=226, 1096.095pt x 469.00218pt>
+<./images/Link1Parameters.png, id=231, 1096.095pt x 469.00218pt>
 File: ./images/Link1Parameters.png Graphic file (type png)
 <use ./images/Link1Parameters.png>
 Package pdftex.def Info: ./images/Link1Parameters.png  used on input line 580.
@@ -661,13 +661,13 @@ Underfull \hbox (badness 2617) in paragraph at lines 584--588
  and
  []
 
-<./images/Joint1Parameters.png, id=229, 612.78937pt x 374.90062pt>
+<./images/Joint1Parameters.png, id=234, 612.78937pt x 374.90062pt>
 File: ./images/Joint1Parameters.png Graphic file (type png)
 <use ./images/Joint1Parameters.png>
 Package pdftex.def Info: ./images/Joint1Parameters.png  used on input line 592.
 
 (pdftex.def)             Requested size: 252.94499pt x 154.75137pt.
-<./images/Joint1Link1+Controller.png, id=230, 849.1725pt x 457.71pt>
+<./images/Joint1Link1+Controller.png, id=235, 849.1725pt x 457.71pt>
 File: ./images/Joint1Link1+Controller.png Graphic file (type png)
 <use ./images/Joint1Link1+Controller.png>
 Package pdftex.def Info: ./images/Joint1Link1+Controller.png  used on input lin
@@ -699,34 +699,34 @@ l.604
 l.604 
        <./images/MassProperties.png> <./images/Link1Parameters.png> <./images/J
 oint1Parameters.png> <./images/Joint1Link1+Controller.png>]
-<./images/Link1Model.png, id=247, 1024.57782pt x 335.00156pt>
+<./images/Link1Model.png, id=252, 1024.57782pt x 335.00156pt>
 File: ./images/Link1Model.png Graphic file (type png)
 <use ./images/Link1Model.png>
 Package pdftex.def Info: ./images/Link1Model.png  used on input line 615.
 (pdftex.def)             Requested size: 252.94499pt x 82.70227pt.
-<./images/exportSolidworks.png, id=248, 651.93562pt x 501.37312pt>
+<./images/exportSolidworks.png, id=253, 651.93562pt x 501.37312pt>
 File: ./images/exportSolidworks.png Graphic file (type png)
 <use ./images/exportSolidworks.png>
 Package pdftex.def Info: ./images/exportSolidworks.png  used on input line 620.
 
 (pdftex.def)             Requested size: 252.94499pt x 194.52487pt.
-<./images/importOpenModelicaParameters.png, id=249, 1096.095pt x 469.00218pt>
+<./images/importOpenModelicaParameters.png, id=254, 1096.095pt x 469.00218pt>
 File: ./images/importOpenModelicaParameters.png Graphic file (type png)
 <use ./images/importOpenModelicaParameters.png>
 Package pdftex.def Info: ./images/importOpenModelicaParameters.png  used on inp
 ut line 625.
 (pdftex.def)             Requested size: 252.94499pt x 108.22604pt.
-<./images/taus.png, id=252, 864.22874pt x 820.56563pt>
+<./images/taus.png, id=257, 864.22874pt x 820.56563pt>
 File: ./images/taus.png Graphic file (type png)
 <use ./images/taus.png>
 Package pdftex.def Info: ./images/taus.png  used on input line 633.
 (pdftex.def)             Requested size: 252.94499pt x 240.16159pt.
-<./images/Simulation.png, id=255, 2104.11093pt x 238.64156pt>
+<./images/Simulation.png, id=260, 2104.11093pt x 238.64156pt>
 File: ./images/Simulation.png Graphic file (type png)
 <use ./images/Simulation.png>
 Package pdftex.def Info: ./images/Simulation.png  used on input line 641.
 (pdftex.def)             Requested size: 505.89pt x 57.37344pt.
-<./images/SimulationAnimation.png, id=256, 3135.46407pt x 648.17157pt>
+<./images/SimulationAnimation.png, id=261, 3135.46407pt x 648.17157pt>
 File: ./images/SimulationAnimation.png Graphic file (type png)
 <use ./images/SimulationAnimation.png>
 Package pdftex.def Info: ./images/SimulationAnimation.png  used on input line 6
@@ -737,25 +737,25 @@ Package pdftex.def Info: ./images/SimulationAnimation.png  used on input line 6
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.671 
+l.672 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.671 
+l.672 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.671 
+l.672 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.671 
+l.672 
        <./images/Link1Model.png> <./images/exportSolidworks.png> <./images/impo
 rtOpenModelicaParameters.png> <./images/taus.png>] [9pdfTeX warning (ext4): des
 tination with the same identifier (name{figure.17}) has been already used, dupl
@@ -763,27 +763,27 @@ icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.686 \clearpage
+l.674 \clearpage
                 pdfTeX warning (ext4): destination with the same identifier (na
 me{figure.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.686 \clearpage
+l.674 \clearpage
                 
 
  <./images/Simulation.png> <./images/SimulationAnimation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 700--701
+Underfull \hbox (badness 10000) in paragraph at lines 688--689
 []\OT1/ptm/m/n/8 Thanks gs.solidworks.com/solidworksblog/2016/10/growing-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--703
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
 []\OT1/ptm/m/n/8 (SolidWoks - Wikipedia)(2020, May). Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--709
+Underfull \hbox (badness 10000) in paragraph at lines 696--697
 []\OT1/ptm/m/n/8 (Atan2 - Wikipedia)(2020, May). Avail-able:
  []
 
@@ -791,368 +791,368 @@ Underfull \hbox (badness 10000) in paragraph at lines 708--709
 
 
 ]
-<./images/MatricesManipulation.pdf, id=281, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=286, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf  used on input line 
-722.
+710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf  used on input line 
-722.
+710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<./images/MatricesManipulation.pdf, id=284, page=1, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=289, page=1, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 1>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
-t line 722.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
-<use ./images/MatricesManipulation.pdf, page 1>
-Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 1>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 1>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 1>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
-t line 722.
+t line 710.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
+<use ./images/MatricesManipulation.pdf, page 1>
+Package pdftex.def Info: ./images/MatricesManipulation.pdf , page1 used on inpu
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [11 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=300, page=2, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=305, page=2, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 2>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page2 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 2>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page2 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 2>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page2 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [12 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=315, page=3, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=320, page=3, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 3>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page3 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 3>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page3 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 3>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page3 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [13 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=341, page=4, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=346, page=4, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 4>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page4 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 4>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page4 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 4>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page4 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [14 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=363, page=5, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=368, page=5, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 5>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page5 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 5>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page5 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 5>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page5 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [15 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=368, page=6, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=373, page=6, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 6>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page6 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 6>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page6 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 6>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page6 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [16 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=373, page=7, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=378, page=7, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 7>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page7 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 7>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page7 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 7>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page7 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [17 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=383, page=8, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=388, page=8, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 8>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page8 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 8>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page8 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 8>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page8 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [18 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=388, page=9, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=393, page=9, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 9>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page9 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 9>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page9 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 9>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page9 used on inpu
-t line 722.
+t line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [19 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=394, page=10, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=399, page=10, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 10>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page10 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 10>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page10 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 10>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page10 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [20 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=399, page=11, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=404, page=11, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 11>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page11 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 11>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page11 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 11>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page11 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [21 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=404, page=12, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=409, page=12, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 12>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page12 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 12>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page12 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 12>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page12 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [22 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=409, page=13, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=414, page=13, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 13>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page13 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 13>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page13 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 13>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page13 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [23 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=414, page=14, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=419, page=14, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 14>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page14 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 14>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page14 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 14>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page14 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [24 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=419, page=15, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=424, page=15, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 15>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page15 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 15>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page15 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 15>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page15 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [25 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=425, page=16, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=430, page=16, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 16>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page16 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 16>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page16 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 16>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page16 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [26 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=430, page=17, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=435, page=17, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 17>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page17 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 17>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page17 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 17>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page17 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [27 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=435, page=18, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=440, page=18, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 18>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page18 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 18>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page18 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 18>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page18 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [28 <./images/MatricesManipulation.pdf>]
-<./images/MatricesManipulation.pdf, id=440, page=19, 614.295pt x 794.97pt>
+<./images/MatricesManipulation.pdf, id=445, page=19, 614.295pt x 794.97pt>
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 19>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page19 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 19>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page19 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ./images/MatricesManipulation.pdf Graphic file (type pdf)
 <use ./images/MatricesManipulation.pdf, page 19>
 Package pdftex.def Info: ./images/MatricesManipulation.pdf , page19 used on inp
-ut line 722.
+ut line 710.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [29
 
  <./images/MatricesManipulation.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 726.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 726.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 714.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 714.
 
 ("Robot Manipulator Design.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 726.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 726.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 714.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 714.
 Package rerunfilecheck Info: File `"Robot Manipulator Design".out' has not chan
 ged.
-(rerunfilecheck)             Checksum: CE425711C8C685DEEE25B6F2488DD8FB;1116.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 726.
+(rerunfilecheck)             Checksum: 485820D7993DA458B20D31B795BB702B;1187.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 714.
  ) 
 Here is how much of TeX's memory you used:
- 8831 strings out of 481556
- 137877 string characters out of 2923611
- 415026 words of memory out of 3000000
- 23780 multiletter control sequences out of 15000+200000
+ 8833 strings out of 481556
+ 137907 string characters out of 2923611
+ 414026 words of memory out of 3000000
+ 23781 multiletter control sequences out of 15000+200000
  572150 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,19n,49p,802b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1180,9 +1180,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Robot Manipulator Design.pdf" (29 pages, 2256223 bytes).
+Output written on "Robot Manipulator Design.pdf" (29 pages, 2255751 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 358 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 542 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
