@@ -33,13 +33,13 @@ model OpenModel
     Placement(visible = true, transformation(origin = {-346, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Blocks.Math.Gain Gain_1(k = 180) annotation(
     Placement(visible = true, transformation(origin = {-308, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Modelica.Blocks.Math.Gain Gain_2(k = 45) annotation(
+  Modelica.Blocks.Math.Gain Gain_2(k = 0) annotation(
     Placement(visible = true, transformation(origin = {-122, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Blocks.Sources.Clock Theta_2 annotation(
     Placement(visible = true, transformation(origin = {-156, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Blocks.Math.UnitConversions.From_deg Deg_to_Rad_2 annotation(
     Placement(visible = true, transformation(origin = {-90, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Modelica.Blocks.Math.Gain Gain_3(k = 90) annotation(
+  Modelica.Blocks.Math.Gain Gain_3(k = 0) annotation(
     Placement(visible = true, transformation(origin = {24, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Blocks.Sources.Clock Theta_3 annotation(
     Placement(visible = true, transformation(origin = {-10, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
@@ -53,7 +53,7 @@ model OpenModel
     Placement(visible = true, transformation(origin = {284, -2}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Mechanics.MultiBody.Joints.Revolute ToolJoint(useAxisFlange = true) annotation(
     Placement(visible = true, transformation(origin = {244, -2}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  Modelica.Blocks.Math.Gain Gain_4(k = 90) annotation(
+  Modelica.Blocks.Math.Gain Gain_4(k = 0) annotation(
     Placement(visible = true, transformation(origin = {174, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Mechanics.Rotational.Sources.Position Position_4 annotation(
     Placement(visible = true, transformation(origin = {236, 38}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
